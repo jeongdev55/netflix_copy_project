@@ -113,7 +113,24 @@ $(document).ready(function(){
         }
         
     });
- 
+
+
+
+    /*초기 멤버십 선택되는 곳 */
+    $('.item3').addClass('list_select');
+    $('.item3').find('.selection_header').addClass('list_select_item');
+    $('.item3').append('<img src="../img/check.png" class="check_img">');
+    /*---------------------------------------------------------------- */
+
     
+    $('.list_item').on('click', function(){ 
+        $(this).addClass('list_select');
+        $(this).find('.selection_header').addClass('list_select_item');
+        $(this).append('<img src="../img/check.png" class="check_img">');
+        
+        $(this).siblings().removeClass('list_select');
+        $(this).siblings().find('.selection_header').removeClass('list_select_item');
+        $(this).siblings().find('.check_img').remove();
+    }); 
     
     });

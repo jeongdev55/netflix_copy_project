@@ -359,6 +359,7 @@ footer{
 
 .paydecontainer{
     width: 100%;
+    height: 600px;
     background: #f3f3f3;
 }
 
@@ -413,11 +414,159 @@ footer{
 
 }
 .pay_table{
-
-
+   width: 1020px;
 }
 .table_top > th{
     font-size: 14px;
     color: #858080;
     font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(199, 196, 196);
+}
+
+.table_content{
+    font-size: 14px;
+}
+
+.top1{
+    text-align: left;
+}
+.top2{
+    text-align: left;
+}
+.top3{
+    text-align: left;
+}
+.top4{
+    text-align: left;
+}
+.top5{
+    text-align: right;
+}
+.top6{
+    text-align: right;
+}
+
+#surtax{
+    color: #868585;
+}
+
+.content5,.content6{
+    text-align: right;
+}
+
+.table_text1{
+    color: #0f84fa;
+    font-weight: 500;
+}
+
+
+
+/*멤버십 변경 페이지(changeplan.jsp) */
+.plancontainer{
+    width: 100%;
+    height: 750px;
+    background: #f3f3f3;
+}
+
+.plan_div{
+    margin: auto;
+    margin-left: 22%;
+    width: 1044px;
+}
+
+.plan_div > p{
+    padding-top: 45px;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.list{
+    width: 1044px;
+    height: 380px;
+
+}
+
+.list_item{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 18px;
+    width: 1040px;
+    height: 110px;
+    border: 4px solid #cccccc;
+}
+
+.selection_header{
+    width: 15%;
+    text-align: center;
+    line-height: 110px;
+    background: #f3f3f3;
+}
+
+.selection_body{
+    width: 72%;
+    line-height: 110px;
+    padding-left: 18px;
+    background: white;
+}
+.selection_price{
+    width: 13%;
+    line-height: 110px;
+    font-size: 19px;
+    background: white;
+}
+
+.plan_div >span{
+    font-size: 12px;
+    width: 1044px;
+    line-height: 20px;
+}
+
+.data3{
+    color: #0f84fa;
+}
+.data3:hover{
+    text-decoration: underline;
+}
+
+.list_btn{
+    text-align: center;
+    padding-top:13px ;
+
+}
+.listbtn{
+    width: 98px;
+    height: 37px;
+    margin-right: 2px;
+}
+.listbtn1{
+    background:  #027af2;
+    border: none;
+    color:white;
+}
+
+.listbtn2{
+    background:  #e1e1e1;
+    border: none;
+}
+
+/* 마우스 click,hover 이벤트시 추가될 클래스*/
+.list_select_item{
+    background:#cccccc ;
+    color: #027af2;
+    font-weight: 600;
+}
+.list_select{
+    border-color: #027af2;
+}
+
+.list_item:hover{
+    border-color: #027af2;
+    cursor: pointer;
+}
+
+.check_img{
+    position: absolute;
+    margin: 35px -20px;
 }
